@@ -94,5 +94,6 @@ sim_3path: elaborate
 
 .PHONY: clean
 clean:
+	[ ! -d carry_lookahead_adder-main ] || \
 	cd $(SIM_WORK_DIR) && \
 	$(RM) -rf *.env *.log dsim_work metrics.db wave.*

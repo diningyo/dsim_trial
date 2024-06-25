@@ -20,7 +20,9 @@ Metrics Design Automationが開発しているシミュレーターDSimを試し
 
 ## 構成
 
+```bash
 ─── tutorial : DSimで公開されているチュートリアルデータを試す環境
-       ├── Makefile
-       └── README.md
+    ├── Makefile
+    └── README.md
+```
 
